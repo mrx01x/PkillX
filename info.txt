@@ -1,0 +1,7 @@
+#!/bin/bash
+
+gcc -c dialog.c `pkg-config --libs --cflags gtk+-3.0`
+gcc -shared dialog.o -o libpkillx.so `pkg-config --libs --cflags gtk+-3.0`
+sudo cp -av libpkillx.so /usr/lib/
+gcc pkillx.c /usr/lib/libpkillx.so -o pkillx `pkg-config --libs --cflags gtk+-3.0`
+
