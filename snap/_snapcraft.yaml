@@ -1,1 +1,19 @@
+name: PkillX
+version: '1.0'
+summary: PkillX
+description: |
+  Command line interface for Hackers who love football
+
+grade: stable
+confinement: strict
+
+apps:
+  footie:
+    command: bin/pkillx
+    plugs: [network]
+
+parts:
+  footie:
+    plugin: nodejs
+    source: .
 
