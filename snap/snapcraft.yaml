@@ -17,5 +17,4 @@ apps:
 parts:
   footie:
     plugin: nil
-    source: .
-
+    source: https://github.com/ThankYouLinux/PkillX.git
