@@ -3,6 +3,8 @@ version: '1.0'
 summary: pkillx-cli
 description: |
   Command line interface for Hackers who love football
+  
+base: core22
 
 grade: stable
 confinement: strict
