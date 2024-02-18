@@ -16,6 +16,6 @@ apps:
 
 parts:
   footie:
-    plugin: nodejs
+    plugin: nil
     source: .
 
