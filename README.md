@@ -30,3 +30,5 @@ pkillx java firefox virtualbox
 ```
 
 You can choose the number of programs that you want to kill at the same time, it does not have to be one program.
+
+[releases](/releases)
